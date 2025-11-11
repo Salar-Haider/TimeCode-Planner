@@ -19,8 +19,8 @@ public class SupabaseHandler {
     JsonNode jsonResponse;
 
     // Supabase project details
-    private static final String SUPABASE_URL = "https://lsvztvmtsbfjsajfehzi.supabase.co/rest/v1/timetables";
-    private static final String API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imxzdnp0dm10c2JmanNhamZlaHppIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzE4NjQ0MjMsImV4cCI6MjA0NzQ0MDQyM30.yoHW49XDquGAWNHVvb1MnFh_7DCZyw4pBGW0aD09fow";
+    private static final String SUPABASE_URL = " YOUR SUPABASE URL";
+    private static final String API_KEY = " YOUR API KEY";
 
     // HTTP client to communicate with Supabase
     private final HttpClient httpClient;
@@ -120,8 +120,8 @@ public class SupabaseHandler {
     
     
     public void signOutUser(String accessToken) {
-    String supabaseSignOutUrl = "https://lsvztvmtsbfjsajfehzi.supabase.co/auth/v1/logout";
-    String apiKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imxzdnp0dm10c2JmanNhamZlaHppIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MzE4NjQ0MjMsImV4cCI6MjA0NzQ0MDQyM30.yoHW49XDquGAWNHVvb1MnFh_7DCZyw4pBGW0aD09fow";
+    String supabaseSignOutUrl = " YOUR LOGOUT URL";
+    String apiKey = " YOUR API KEY ";
 
     try {
         // Create HTTP client
@@ -480,3 +480,4 @@ public class SupabaseHandler {
     
 
 }
+
