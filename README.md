@@ -4,19 +4,6 @@
 
 ---
 
-## 🚀 Table of Contents
-
-1. [Overview](#overview)
-2. [Features](#features)
-3. [Tech Stack](#tech-stack)
-4. [Installation & Setup](#installation-setup)
-5. [Usage](#usage)
-6. [Project Structure](#project-structure)
-7. [Contributing](#contributing)
-8. [License](#license)
-9. [Contact](#contact)
-
----
 
 ## 🧐 Overview
 
